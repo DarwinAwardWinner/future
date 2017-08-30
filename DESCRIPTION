@@ -6,10 +6,14 @@ Imports:
     globals (>= 0.10.2),
     listenv (>= 0.6.0),
     parallel,
-    utils
+    utils,
+    R.utils
 Suggests:
     R.rsp,
-    markdown
+    markdown,
+    doFuture,
+    BiocParallel.FutureParam,
+    BiocParallel
 VignetteBuilder: R.rsp
 Authors@R: c(person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
                                           email = "henrikb@braju.com"))
